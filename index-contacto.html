@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>La Confianza Broker de seguros-Servicios</title>
+   <link rel="stylesheet" href="estilo-contacto.css">
+   
+   <script src="https://kit.fontawesome.com/0649b9dc65.js" crossorigin="anonymous"></script>  
+   
+</head>
+<body>
+   <div id="contenedor">
+      <header class="header">
+         <div class="logo">
+          <img src="logo.jpg" alt="IMAGEN LOGO">
+         </div>
+         <p>La Confianza <br> Broker de seguros</p>
+      </header>
+      <nav class="item nav">
+ 
+          <ul class="nav-ul">
+            <li class="nav-li"><a href="index-home.html">Inicio</a> </li>
+            <li class="nav-li"><a href="index-quienes-somos.html" target="_blank">Quienes somos</a></li>
+            <li class="nav-li"><a href="index-servicios.html" target="_blank">Servicios</a></li>
+            <li class="nav-li"><a href="index-contacto.html">Contacto</a></li>
+         </ul>
+
+         <ul class="nav-responsive-ul">            
+            <span class="abrir" onclick="document.getElementById('nav-li-container').style.visibility='visible'">  
+               <div id="nav-responsive-button"><i class="fa-solid fa-bars"></i>
+               </div> 
+             </span>
+               
+            
+               <div id="nav-li-container" class="ventana">
+                  <span class="cerrar" onclick="document.getElementById('nav-li-container').style.visibility='hidden'">CERRAR</span>
+                  <ul class="nav-ul-container">
+                     <li class="responsive-li><a href="index-home.html">Inicio</a> </li>
+                     <li class="responsive-li"><a href="index-quienes-somos.html" target="_blank">Quienes somos</a></li>
+                     <li class="responsive-li"><a href="index-servicios.html" target="_blank">Servicios</a></li>
+                     <li class="responsive-li"><a href="index-contacto.html">Contacto</a></li>
+                  </ul>
+               </div>   
+
+            
+
+         </ul>
+      </nav>
+
+         <div class="flex-container main">
+            <form class="form">
+                <div class="form_section">
+                    <input type="text" class="form_input" placeholder="Escriba su mail">
+                </div>
+                <div class="form_section">
+                    <input type="email" class="form_input" placeholder="Escriba el asunto del correo">
+                </div>
+                <div class="form_section">
+                    <textarea class="form_input" placeholder="Escriba su mensaje
+                    "></textarea>
+                </div>
+                <div class="form_section">
+                    <input type="submit" class="form_input">
+                </div>
+            </form>
+
+        </div>
+      <footer class="item footer">
+         <div class="redes-sociales">
+            
+            <ul>
+               <li><p>Seguinos en las redes sociales  </p></li>
+               <li> <i class="fa-brands fa-youtube"></i></li>
+               <li><i class="fa-brands fa-twitter"></i></li>
+               <li><i class="fa-brands fa-facebook"></i></li>
+               <li><i class="fa-brands fa-whatsapp"></i></li>
+               <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+         </div>
+         <div>
+            <p>POLITICA DE PRIVACIDAD: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, alias minima! Placeat.</p>
+         </div>
+         <div>
+            <p>COOKIES. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, alias minima! .</p>
+         </div>
+         
+      </footer>
+   </div>
+
+</body>
+</html>
